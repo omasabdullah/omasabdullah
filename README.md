@@ -121,7 +121,6 @@
 * Madness can sometimes be the path to truth.
 * Death is just the beginning.
 * Facing all that you fear will free you from yourself.
-* The Clone Wars “Final Season.”
 * Embrace others for their differences, for that makes you whole.
 * The search for truth begins with belief.
 * Survival is one step on the path to living.
