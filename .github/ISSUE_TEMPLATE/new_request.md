@@ -1,0 +1,65 @@
+name: New Request
+description: Request a new integration
+title: "[New Request]: "
+labels: []
+assignees:
+  - omasabdullah
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please fill out the following details!
+  - type: input
+    id: team
+    attributes:
+      label: Team
+      description: Which team is requesting this integration?
+      placeholder: ex. Finance
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe on a high level what you are trying to achieve or what the problem is.
+      placeholder: Tell us what you see!
+    validations:
+      required: true
+  - type: dropdown
+    id: systems
+    attributes:
+      label: Which systems are you looking to connect?
+      multiple: true
+      options:
+        - Airtable
+        - Bloodhound
+        - Coupa
+        - Google Slides
+        - Helpdesk
+        - Mode
+        - Netsuite
+        - Slack
+        - SFTP
+        - Workday
+  - type: input
+    id: business-process
+    attributes:
+      label: Current Business Process
+      description: Do you have your current business process mapped out for review? If so, provide a link to a description of that process.
+    validations:
+      required: true
+  - type: input
+    id: vault-link
+    attributes:
+      label: Vault Link
+      description: ex. https://vault.shopify.io/projects/1
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
