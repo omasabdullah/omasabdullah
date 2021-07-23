@@ -1,6 +1,6 @@
-name: New Request
-description: Request a new integration
-title: "[New Request]: "
+name: New Integration Request
+description: Request a new integration that will connect 2 or more systems.
+title: "[New Integration]: "
 labels: []
 assignees:
   - omasabdullah
