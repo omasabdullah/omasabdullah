@@ -22,13 +22,14 @@ body:
     attributes:
       label: Description
       description: Describe on a high level what you are trying to achieve or what the problem is.
-      placeholder: Tell us what you see!
+      placeholder: Insert text here...
     validations:
       required: true
   - type: dropdown
     id: systems
     attributes:
       label: Which systems are you looking to connect?
+      description: Don't see the system listed? Request iHub to support it [here](https://google.com)
       multiple: true
       options:
         - Airtable
@@ -46,13 +47,11 @@ body:
     attributes:
       label: Current Business Process
       description: Do you have your current business process mapped out for review? If so, provide a link to a description of that process.
-    validations:
-      required: true
   - type: input
     id: vault-link
     attributes:
       label: Vault Link
-      description: ex. https://vault.shopify.io/projects/1
+      placeholder: ex. https://vault.shopify.io/projects/1
     validations:
       required: true
   - type: checkboxes
