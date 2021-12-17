@@ -50,7 +50,7 @@ body:
     id: other_client
     attributes:
       label: Other
-      description: Need another client built? Let us know here:
+      description: Need another client built? Let us know here
   - type: input
     id: business-process
     attributes:
