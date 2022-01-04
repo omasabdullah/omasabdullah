@@ -19,13 +19,15 @@ body:
       label: Description
       description: >
         Describe what you are trying to achieve or what problem you're trying to solve. Consider what the new integration will enable
-        for Shopify or what savings it could provide, and which teams/roles would be impacted by the change. Currently supported systems can be found [here](https://ihub.docs.shopify.io/clients).
+        for Shopify or what savings it could provide, and which teams/roles would be impacted by the change. Currently supported systems
+        can be found [here](https://ihub.docs.shopify.io/clients).
       placeholder: Insert text here...
   - type: textarea
     id: impact
     attributes:
       label: Measurable Impact
-      description: Provide a measurable amount of time saved through automation. e.g. This task is currently performed 500 times / week, taking 10 minutes per task, resulting in a cost of 5000 minutes / week.
+      description: Provide a measurable amount of time saved through automation. e.g. This task is currently performed 500 times / week,
+        taking 10 minutes per task, resulting in a cost of 5000 minutes / week.
   - type: input
     id: business-process
     attributes:
