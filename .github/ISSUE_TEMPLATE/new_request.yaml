@@ -17,40 +17,14 @@ body:
     id: description
     attributes:
       label: Description
-      description: Describe what you are trying to achieve or what problem you're trying to solve. Consider what the new integration will enable for Shopify or what savings it could provide, and which teams/roles would be impacted by the change.
+      description: Describe what you are trying to achieve or what problem you're trying to solve. Consider what the new integration will enable
+      for Shopify or what savings it could provide, and which teams/roles would be impacted by the change. Currently supported systems can be found [here](https://ihub.docs.shopify.io/clients).
       placeholder: Insert text here...
-  - type: input
+  - type: textarea
     id: impact
     attributes:
       label: Measurable Impact
       description: Provide a measurable amount of time saved through automation. e.g. This task is currently performed 500 times / week, taking 10 minutes per task, resulting in a cost of 5000 minutes / week.
-  - type: dropdown
-    id: systems
-    attributes:
-      label: Which systems are you looking to connect?
-      description: Don't see the system listed? Request iHub to support it [here](https://google.com)
-      multiple: true
-      options:
-        - Airtable
-        - Bloodhound
-        - Coupa
-        - Google Slides
-        - Helpdesk
-        - Mode
-        - NetSuite
-        - Okta
-        - Shopify
-        - Slack
-        - Smart Recruiters
-        - SFTP
-        - Webmerge
-        - Workday
-        - Other
-  - type: input
-    id: other_client
-    attributes:
-      label: Other
-      description: Need another client built? Let us know here
   - type: input
     id: business-process
     attributes:
