@@ -9,22 +9,59 @@ body:
         ## Onboarding Checklist
         Please complete the following tasks to help us get you onboarded smoothly!
 
-  - type: checklist
+  - type: checkboxes
+    id: setup_email
     attributes:
-      title: Tasks
-      items:
-        - checked: false
-          description: 'Set up your company email account'
-        - checked: false
-          description: 'Complete your profile on the company intranet'
-        - checked: false
-          description: 'Join the team chat platform and introduce yourself'
-        - checked: false
-          description: 'Review the company policies and handbook'
-        - checked: false
-          description: 'Schedule a one-on-one with your manager'
-        - checked: false
-          description: 'Set up your work environment and tools'
+      label: Set up your company email account
+      description: Check this box when completed.
+      options:
+        - label: 'I have set up my company email account'
+          required: false
+
+  - type: checkboxes
+    id: complete_profile
+    attributes:
+      label: Complete your profile on the company intranet
+      description: Check this box when completed.
+      options:
+        - label: 'I have completed my profile on the intranet'
+          required: false
+
+  - type: checkboxes
+    id: join_team_chat
+    attributes:
+      label: Join the team chat platform and introduce yourself
+      description: Check this box when completed.
+      options:
+        - label: 'I have joined the chat and introduced myself'
+          required: false
+
+  - type: checkboxes
+    id: review_policies
+    attributes:
+      label: Review the company policies and handbook
+      description: Check this box when completed.
+      options:
+        - label: 'I have reviewed the company policies and handbook'
+          required: false
+
+  - type: checkboxes
+    id: schedule_one_on_one
+    attributes:
+      label: Schedule a one-on-one with your manager
+      description: Check this box when completed.
+      options:
+        - label: 'I have scheduled a one-on-one with my manager'
+          required: false
+
+  - type: checkboxes
+    id: setup_environment
+    attributes:
+      label: Set up your work environment and tools
+      description: Check this box when completed.
+      options:
+        - label: 'I have set up my work environment and tools'
+          required: false
 
   - type: markdown
     attributes:
