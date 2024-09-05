@@ -1,6 +1,7 @@
 name: Onboarding Checklist
 description: Checklist for new employees to ensure a smooth onboarding process.
 labels: onboarding
+
 body:
   - type: markdown
     attributes:
@@ -9,22 +10,21 @@ body:
         Please complete the following tasks to help us get you onboarded smoothly!
 
   - type: checklist
-    id: onboarding_tasks
     attributes:
       title: Tasks
       items:
         - checked: false
-          description: [ ] Set up your company email account
+          description: 'Set up your company email account'
         - checked: false
-          description: [ ] Complete your profile on the company intranet
+          description: 'Complete your profile on the company intranet'
         - checked: false
-          description: [ ] Join the team chat platform and introduce yourself
+          description: 'Join the team chat platform and introduce yourself'
         - checked: false
-          description: [ ] Review the company policies and handbook
+          description: 'Review the company policies and handbook'
         - checked: false
-          description: [ ] Schedule a one-on-one with your manager
+          description: 'Schedule a one-on-one with your manager'
         - checked: false
-          description: [ ] Set up your work environment and tools
+          description: 'Set up your work environment and tools'
 
   - type: markdown
     attributes:
